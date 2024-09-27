@@ -1,6 +1,7 @@
 body {
     margin: 0px;
     background-color: #FAEBD7;
+    text-size-adjust: 250%;
 }
 #logo {
     display: none;
@@ -15,8 +16,13 @@ body {
     transition: opacity 1s ease; /* フェードアウト効果 */
 } 
 
+
+
+/*Galaxy S24*/
+@media only screen and (min-height: 780px) and (orientation: portrait){
 h1 {
     margin-top: 0px;
+    margin-bottom: 100px;
     padding: 10px 10px 10px 30px;
     background-color: black;
     color: white;
@@ -24,15 +30,17 @@ h1 {
 }
 
 span{
-    margin-left: 63px;
+    margin-left: 150px;
 }
 
 h2{
+    color: #342414;
     margin-top: 30px;
     margin-bottom: 0px;
 }
 
 p{
+    font-size: 88%;
     margin-top:0px;
     margin-bottom:0px;
 }
@@ -42,6 +50,7 @@ b{
 
 h2,p{
     text-align: center;
+}
 }
 /* 
 #menu-img {
