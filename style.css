@@ -1,7 +1,7 @@
 body {
     margin: 0px;
     background-color: #FAEBD7;
-    text-size-adjust: 280%;
+    -webkit-text-size-adjust: none;
 }
 #logo {
     display: none;
@@ -17,6 +17,7 @@ body {
 } 
 
 h1 {
+    font-size: 80px;
     margin-top: 0px;
     margin-bottom: 100px;
     padding: 10px 10px 10px 30px;
@@ -26,21 +27,23 @@ h1 {
 }
 
 span{
-    margin-left: 155px;
+    margin-left: 140px;
 }
 
 h2{
+    font-size: 45px;
     color: #342414;
     margin-top: 30px;
     margin-bottom: 0px;
 }
 
 p{
-    font-size: 88%;
+    font-size: 30px;
     margin-top:0px;
     margin-bottom:0px;
 }
 b{
+    font-size: 35px;
     margin-top: 0px;
 }
 
