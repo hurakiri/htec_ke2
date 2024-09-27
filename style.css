@@ -11,6 +11,8 @@ body {
     height: 100vh;            /* 画面全体の高さ */
     object-fit: cover;        /* アスペクト比を維持しつつ拡大 */
     z-index: 9999;            /* 他の要素の上に表示 */
+    opacity: 1;
+    transition: opacity 1s ease; /* フェードアウト効果 */
 } 
 
 h1 {
