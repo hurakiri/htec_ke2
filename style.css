@@ -16,6 +16,16 @@ body {
     transition: opacity 1s ease; /* フェードアウト効果 */
 } 
 
+#closed {
+    position: fixed;          /* 固定位置 */
+    top: 0;                   /* 画面の上端に配置 */
+    left: 0;                  /* 画面の左端に配置 */
+    width: 100vw;             /* 画面全体の幅 */
+    height: 100vh;            /* 画面全体の高さ */
+    object-fit: cover;        /* アスペクト比を維持しつつ拡大 */
+    z-index: 9998;     
+}
+
 h1 {
     font-size: 80px;
     margin-top: 0px;
